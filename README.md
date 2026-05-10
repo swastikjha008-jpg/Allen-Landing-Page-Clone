@@ -1,118 +1,45 @@
-# 🧮 React Calculator v2
+# ALLEN Landing Page Clone
 
-A modern, responsive calculator built using **React (v18)** with a clean UI and smooth interactions.
-This project is the upgraded version (**v2**) of my original C++ calculator, now transformed into a web-based application.
+A clean and responsive React landing page inspired by the ALLEN ASAT online courses page.
 
----
+## Overview
 
-## 🚀 Features
+This project is a frontend practice clone built using React. It recreates the structure and feel of an educational landing page with a modern layout, strong call-to-action sections, a registration form, course cards, benefits, steps, and an interactive FAQ section.
 
-* Basic arithmetic operations (+, −, ×, ÷)
-* Real-time input display
-* Clear (`C`) and delete (`DEL`) functionality
-* Responsive and minimal dark UI
-* Fast and lightweight
+The main goal of this project is to practice building a real-world styled landing page using simple React concepts without making the code too advanced.
 
----
+## Features
 
-## 🛠️ Tech Stack
+- Responsive hero section
+- Registration form UI
+- Goal selection buttons
+- Statistics section
+- Benefits section
+- Course cards
+- Step-by-step process section
+- Interactive FAQ using React state
+- Clean and modern layout
 
-* **React.js**
-* **JavaScript (ES6+)**
-* **HTML5**
-* **CSS3**
+## Tech Stack
 
----
+- React
+- JavaScript
+- CSS
+- Vite
 
-## 📸 Preview
+## Concepts Used
 
-*Add a screenshot here after running the project*
-*(Tip: Use Snipping Tool and upload image to your repo)*
+- React components
+- `useState`
+- array `map()`
+- conditional rendering
+- basic form state handling
+- responsive layout design
 
----
-
-## ⚙️ Installation & Setup
-
-### Option 1: Run using Vite (Recommended)
+## Project Structure
 
 ```bash
-npm create vite@latest calculator-v2
-cd calculator-v2
-npm install
-npm run dev
-```
-
-Then replace:
-
-* `src/App.jsx`
-* `src/App.css`
-* `src/main.jsx`
-
----
-
-### Option 2: Run Single HTML Version
-
-Simply open `index.html` in your browser.
-
----
-
-## 📂 Project Structure
-
-```
-calculator-v2/
-│
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   └── main.jsx
-│
-├── index.html
-└── README.md
-```
-
----
-
-## ⚠️ Note
-
-This project uses `eval()` for calculation, which is acceptable for simple demos but **not recommended for production-grade applications**.
-Future versions will replace this with a safer parsing method.
-
----
-
-## 🔮 Future Improvements (v3 Ideas)
-
-* Keyboard input support
-* Calculation history
-* Scientific calculator functions
-* Light/Dark mode toggle
-* Replace `eval()` with a safe math parser
-
----
-
-## 📌 Version History
-
-* **v1** → C++ console-based calculator
-* **v2** → React-based web calculator (this project)
-
----
-
-## 👨‍💻 Author
-
-**Swastik Jha**
-GitHub: https://github.com/swastikjha008-jpg
-
----
-
-## ⭐ Contribute / Support
-
-If you like this project:
-
-* Star ⭐ the repo
-* Fork it
-* Improve it
-
----
-
-## 📜 License
-
-This project is open-source and available under the MIT License.
+src/
+  App.jsx
+  AllenLandingPage.jsx
+  allen-landing.css
