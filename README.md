@@ -1,87 +1,118 @@
-# ⚛️ React Practices
+# 🧮 React Calculator v2
 
-A collection of small React projects, components, and experiments built while learning and improving React skills.
-
----
-
-## 🚀 Purpose
-
-This repository is focused on:
-
-* Practicing core React concepts
-* Building reusable components
-* Understanding real-world patterns
-* Improving code structure and project organization
+A modern, responsive calculator built using **React (v18)** with a clean UI and smooth interactions.
+This project is the upgraded version (**v2**) of my original C++ calculator, now transformed into a web-based application.
 
 ---
 
-## 📂 What’s Inside
+## 🚀 Features
 
-This repo includes multiple mini-projects and exercises such as:
-
-* UI components (buttons, cards, forms, etc.)
-* Small apps (Todo app, counters, etc.)
-* State management practice
-* Hooks usage (`useState`, `useEffect`, etc.)
-* Basic project structures
-
-Each folder represents a separate practice project.
+* Basic arithmetic operations (+, −, ×, ÷)
+* Real-time input display
+* Clear (`C`) and delete (`DEL`) functionality
+* Responsive and minimal dark UI
+* Fast and lightweight
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React (Functional Components)
-* JavaScript (ES6+)
-* HTML5 & CSS3
-* (Optional) Vite / Create React App
+* **React.js**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **CSS3**
 
 ---
 
-## ▶️ Getting Started
+## 📸 Preview
 
-Clone the repository:
+*Add a screenshot here after running the project*
+*(Tip: Use Snipping Tool and upload image to your repo)*
+
+---
+
+## ⚙️ Installation & Setup
+
+### Option 1: Run using Vite (Recommended)
 
 ```bash
-git clone https://github.com/your-username/react-practices.git
-cd react-practices
-```
-
-Install dependencies (inside a project folder):
-
-```bash
+npm create vite@latest calculator-v2
+cd calculator-v2
 npm install
-```
-
-Run the project:
-
-```bash
 npm run dev
 ```
 
----
+Then replace:
 
-## 📈 Goals
-
-* Master React fundamentals
-* Write clean and maintainable code
-* Build strong frontend foundations
-* Prepare for real-world projects
+* `src/App.jsx`
+* `src/App.css`
+* `src/main.jsx`
 
 ---
 
-## 📌 Note
+### Option 2: Run Single HTML Version
 
-This is a learning repository, so code quality and structure will improve over time as skills grow.
-
----
-
-## 🤝 Contributions
-
-Not open for contributions right now — this is a personal learning repo.
+Simply open `index.html` in your browser.
 
 ---
 
-## ⭐ Support
+## 📂 Project Structure
 
-If you find this useful, consider giving it a star ⭐
+```
+calculator-v2/
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── index.html
+└── README.md
+```
+
+---
+
+## ⚠️ Note
+
+This project uses `eval()` for calculation, which is acceptable for simple demos but **not recommended for production-grade applications**.
+Future versions will replace this with a safer parsing method.
+
+---
+
+## 🔮 Future Improvements (v3 Ideas)
+
+* Keyboard input support
+* Calculation history
+* Scientific calculator functions
+* Light/Dark mode toggle
+* Replace `eval()` with a safe math parser
+
+---
+
+## 📌 Version History
+
+* **v1** → C++ console-based calculator
+* **v2** → React-based web calculator (this project)
+
+---
+
+## 👨‍💻 Author
+
+**Swastik Jha**
+GitHub: https://github.com/swastikjha008-jpg
+
+---
+
+## ⭐ Contribute / Support
+
+If you like this project:
+
+* Star ⭐ the repo
+* Fork it
+* Improve it
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
